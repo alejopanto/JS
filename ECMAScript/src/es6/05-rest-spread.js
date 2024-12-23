@@ -20,6 +20,13 @@ let country = "COl"
 let data = {id:1, ...person, country}
 console.log(data);
 
+let kissEmoji = [..."👩‍❤️‍💋‍👩"]
+console.log(kissEmoji)
+
+let familyEmoji = [..."👨‍👩‍👦‍👦"]
+console.log(familyEmoji)
+
+
 // Rest
 function sum(num, ...values) {
     console.log(values);
